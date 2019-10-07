@@ -1,0 +1,5 @@
+---
+- name: installation des packages
+  packages :
+	name: htop
+	state: present

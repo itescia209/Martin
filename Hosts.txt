@@ -1,0 +1,10 @@
+[all]
+database
+web
+
+{database}
+192.168.
+ansible-remote_user=itescia
+
+{web}
+192.168.
