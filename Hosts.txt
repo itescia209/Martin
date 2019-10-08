@@ -3,7 +3,7 @@ database
 web
 
 [all:vars]
-ansible_user=root
+ansible_user=itescia
 ansible_python_interpreter=/usr/bin/python3
 
 [database]
