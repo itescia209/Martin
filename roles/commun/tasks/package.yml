@@ -1,5 +1,5 @@
 ---
 - name: installation des packages
   packages :
-  name: htop
-  state: present
+      name: htop
+      state: present

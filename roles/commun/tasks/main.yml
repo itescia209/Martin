@@ -1,2 +1,2 @@
 ---
-- include "user.yml"
+- include: "user.yml"
