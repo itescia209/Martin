@@ -2,9 +2,14 @@
 database
 web
 
-{database}
-192.168.
-ansible-remote_user=itescia
+[all:vars]
+ansible_user=root
+ansible_python_interpreter=/usr/bin/python3
 
-{web}
-192.168.
+[database]
+192.168.202.133
+
+[database:vars]
+
+[web]
+192.168.202.136
